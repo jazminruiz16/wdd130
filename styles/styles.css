@@ -11,6 +11,7 @@ nav a{
 }
 h1{
     color:darkblue;
+    text-align: center;
 }
 main img{
     width: 150px;
@@ -19,8 +20,10 @@ main img{
     padding: 2px;
     box-shadow:0 0 30px gray;
 }
+
 p{
     padding: 10px;
+    text-align: center;
 }
 main {
     max-width: 840px;
@@ -38,7 +41,10 @@ aside img{
     width: 200px;
     height: auto;
 }
-p { padding: 0;}
+p { 
+    padding: 0;
+    text-align: center;
+}
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
