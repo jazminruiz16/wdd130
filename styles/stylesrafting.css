@@ -59,7 +59,7 @@ main section img{
 main article {
     justify-content: center;
 }
-article img{
+main article img{
     height: auto;
     border: 1px solid black;
     padding: 2px;
