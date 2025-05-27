@@ -12,7 +12,6 @@ nav{
     padding: 50px;
 }
 nav a{
-    color: white;
     padding: 5px;
 }
 .navbar{
@@ -24,6 +23,7 @@ nav a{
     right: 0;
     justify-content: space-between;
     background-color: darkblue;
+    color: white;
 }
 #icono {
     float:right;
@@ -33,10 +33,12 @@ nav a{
 h1{
     color:darkblue;
     text-align: center;
+    background-color: white;
 }
 h2{
     color: #000;
     text-align: center;
+    background-color: white;
 }
 h5{
     text-align: center;
