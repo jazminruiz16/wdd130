@@ -13,7 +13,7 @@ nav{
 }
 nav a{
     padding: 5px;
-    background-color: darkblue;
+    background-color:rgb(25, 29, 50);
     color: white;
 }
 .navbar{
@@ -24,23 +24,44 @@ nav a{
     left: 130px;
     right: 0;
     justify-content: space-between;
-    background-color: darkblue;
+    background-color:rgb(25, 29, 50);
     color: white;
 }
 #icono {
     float:right;
     margin:5px;
-
+}
+.hero {
+    position: relative;
+}
+.hero section h1 {
+    position: absolute;
+    text-align: center;
+}
+.images{
+    float:right;
+}
+.hero article {
+    position: absolute;
 }
 h1{
-    color:darkblue;
+    color:rgb(109, 59, 71);
     text-align: center;
     background-color: white;
 }
 h2{
-    color: #000;
+    color:rgb(40, 47, 68);
     text-align: center;
-    background-color: white;
+    background-color: white
+
+}
+.hero article h2 {
+    color:rgb(40, 47, 68);
+    text-align: center;
+    background-color: rgb(255, 239, 213);
+}
+h3{
+    text-align: center;
 }
 h5{
     text-align: center;
@@ -50,15 +71,18 @@ main section {
     width: auto;
 }
 main section img{
-    width: 500px;
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow:0 0 30px gray;
     text-align: center;
+    justify-content: space-between;
+    
 }
 main article {
     justify-content: center;
+    background-color: rgb(255, 239, 213);
 }
 main article img{
     height: auto;
@@ -66,20 +90,18 @@ main article img{
     padding: 2px;
     box-shadow:0 0 30px gray;
 }
-.images {
-    margin-left:35%;
-    margin-right: 35%;
-    margin-top: 0%;
-    width: 300px;
-
-}
 p{
     padding: 10px;
     text-align: center;
 }
+.history {
+    margin-top: 25%;
 
+}
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
+    color: rgb(255, 239, 213) ;
     text-align: center;
+    background-color: rgb(25, 29, 50); ;
 }
