@@ -90,6 +90,15 @@ main article img{
     padding: 2px;
     box-shadow:0 0 30px gray;
 }
+
+.images2{
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    width: auto;
+    text-align: center;
+
+}
 p{
     padding: 10px;
     text-align: center;
