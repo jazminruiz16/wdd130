@@ -47,6 +47,7 @@ h5{
 }
 main section {
     padding: 50px;
+    width: auto;
 }
 main section img{
     width: 500px;
