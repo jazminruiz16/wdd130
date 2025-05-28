@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  background: purple;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+section {
+  zoom: 0.8;
+  display: flex;
+  /*flex-direction: column; change de axis(eje) to vertical of our flex elements inside the flex box.  Column reverse change the first to the last item in the column*/
+  /*flex-wrap: wrap; hace que los items no se salgan de la caja flex determinada*/
+
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+/* Add your flexbox CSS below here */
