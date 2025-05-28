@@ -27,7 +27,8 @@ article {
   background: aqua;
   flex:1 100px; /*control what proportion of space flex items take up compared to the other flex items.this number don't have a unit. 
   Si tuviera dos items distitos podría asigarle a uno la mitad de la página usando 2 y al resto que se repartieran lo que queda usando 1 (ya que 1 + 1 + 2 = 4). 
-  Por si acaso, hay una forma de selccionar solo uno de los items*/
+  Por si acaso, hay una forma de selccionar solo uno de los items
+  flexbasis: valor minimo*/
   /*cv*/
 }
 article:nth-of-type(3){
