@@ -16,12 +16,21 @@ section {
   zoom: 0.8;
   display: flex;
   /*flex-direction: column; change de axis(eje) to vertical of our flex elements inside the flex box.  Column reverse change the first to the last item in the column*/
-  /*flex-wrap: wrap; hace que los items no se salgan de la caja flex determinada*/
+  /*flex-wrap: wrap; hace que los items no se salgan de la caja flex determinada
+  flex-flow: row wrap; this is flex-direction+flex-wrap*/
+
 
 }
 article {
   padding: 10px;
   margin: 10px;
   background: aqua;
+  flex:1 100px; /*control what proportion of space flex items take up compared to the other flex items.this number don't have a unit. 
+  Si tuviera dos items distitos podría asigarle a uno la mitad de la página usando 2 y al resto que se repartieran lo que queda usando 1 (ya que 1 + 1 + 2 = 4). 
+  Por si acaso, hay una forma de selccionar solo uno de los items*/
+  /*cv*/
+}
+article:nth-of-type(3){
+  flex:2 100px; /* al lado del numero flex puedo añadir otras reglas*/
 }
 /* Add your flexbox CSS below here */
