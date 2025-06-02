@@ -47,15 +47,15 @@ nav a{
     margin-top: 5%;
 }
 .hero h1 {
-    position: relative;
+    position: absolute;
     text-align: center;
 }
 .images{
     float:right;
 }
 .hero article {
-    text-align: center;
-    margin-top: 3%;
+    text-align: absolute;
+    margin-top: 9%;
 }
 h1{
     color:rgb(109, 59, 71);
