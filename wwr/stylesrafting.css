@@ -126,13 +126,16 @@ p{
 .historybody{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
     background-color: rgb(109, 59, 71);
     color: rgb(255, 239, 213);
 
+}
+.historybody img{
+    width: 30%;
 }
 .figures {
     display: flex;
@@ -143,6 +146,9 @@ p{
 }
 figure{
     width: 20%;
+}
+.figures figure img {
+    width: 100%;
 }
 figcaption{
     width: 100%;
