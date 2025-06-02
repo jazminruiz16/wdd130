@@ -126,7 +126,7 @@ p{
 .historybody{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
