@@ -1,5 +1,4 @@
 *{
-    padding: 0;
     margin: 0;
     list-style: none;
 }
@@ -28,7 +27,10 @@ nav{
     flex-wrap: wrap;
 }
 header nav{
-    gap: 0px 0px 0px ;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
 }
 header nav a{
     width: 150px;
@@ -53,6 +55,10 @@ body {
 .hero h1 {
     position: relative;
     text-align: center;
+}
+.hero article h2{
+    text-align: left;
+    padding: 1%;
 }
 .images{
     float:right;
