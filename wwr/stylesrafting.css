@@ -114,7 +114,7 @@ p{
 .history {
     margin-top: 5%;
     background-color: var(--accent2-color);
-    color: rgb(255, 239, 213);
+    color: var(--secondary-color);
 }
 .historybody{
     display: flex;
@@ -160,5 +160,4 @@ footer nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-   
 }
