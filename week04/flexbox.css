@@ -37,4 +37,3 @@ article {
 article:nth-of-type(3){
   flex:2 100px; /* al lado del numero flex puedo añadir otras reglas*/
 }
-/* Add your flexbox CSS below here */
