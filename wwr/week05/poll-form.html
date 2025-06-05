@@ -3,40 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolivia Rafting Contact Us</title>
-    <meta name="description" content="Jazmin's Wild Rafting Company's Contact Us Page">
-    <meta name="author" content="Jazmin Ruiz">
-    <link rel="stylesheet" href="styles/rafting.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styleform.css">
 </head>
 <body>
-
     <header>
-        <div>
-            <img src="images/logo.jpg" alt="Bolivia Rafting"  width="130">
-        </div> 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <h1>WDD 130 | Your Name | HTML Form - User Poll</h1>
     </header>
     <main>
-        
-        <div class="forms">
+        <!--The form has the user name, email address, message purpose selection, message, 
+        newsletter checkbox, and submission button labeled with something 
+        other than just Submit". -->
+        <div class="wrapper">
             <form>
                 <fieldset>
-                    <legend id="sendus">Send Us a Message</legend>
-                    <p id="paragraph">Send us a message and we'll respond within 24 hours.</p>
+                    <legend>Contact information</legend>
                     <div class="contact">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name">
                         <label for="useremail">Email</label>
                         <input type="email" id="useremail" name="useremail">
                     </div>
+                </fieldset>
+                <fieldset>
+                    <legend></legend>
                     <p>Purpose of the message</p>
                     <div class="purpose">
                         <input type="radio" id="option1" name="purpose">
@@ -55,26 +45,13 @@
                         <label for="newsletter">Please subscribe me to the monthly newsletter.</label>                       
                     </div>
                     <button>Send</button>
-                </fieldset>                
+                </fieldset>
+                
             </form>
         </div>
-
     </main>
-    
     <footer>
-        <p>©2025 Bolivia Rafting, Jazmin Ruiz</p>
-        <nav>
-            <a href="https://www.facebook.com/boliviaraf/?locale2=es_LA&_rdr">
-                <img src="images/face.png" alt="Bolivia Rafting" width="50">
-            </a>
-            <a href="https://wa.me/+59179702995">
-                <img src="images/whatsapp.png" alt="Bolivia Rafting" width="50">
-            </a>
-            <a href="https://wa.me/+59170767937">
-                <img src="images/whatsapp.png" alt="Bolivia Rafting" width="50">
-            </a>
-            
-        </nav>
+        <h2>WDD 130 | HTML Form - User Poll Activity | Your Name</h2>               
     </footer>
 </body>
 </html>

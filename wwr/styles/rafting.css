@@ -173,3 +173,23 @@ footer nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/*Contact Us*/
+.forms {
+    margin-left:0;
+    margin-right:0;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+fieldset{
+    border: 0px;  
+}
+#sendus {
+    text-align: center;
+}
+#paragraph{
+    text-align: center;
+}
