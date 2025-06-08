@@ -17,6 +17,7 @@ header{
     color: var(--secondary-color);
     grid-auto-flow:column;
     font-family: "Source Code Pro", monospace;
+    margin-bottom: 5%;
 }
 header div {
     place-self: center;
@@ -203,7 +204,6 @@ footer nav{
     margin: 0%;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     color: var(--primary-color);
     font-family: "Source Code Pro", monospace;
 }
