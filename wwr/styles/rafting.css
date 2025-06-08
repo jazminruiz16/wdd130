@@ -174,6 +174,28 @@ footer nav{
     flex-wrap: wrap;
 }
 /*Contact Us*/
+.content{
+    display: grid;
+    justify-content: space-between;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color:var(--accent2-color);
+    color: var(--secondary-color);
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: stretch;
+}
+.data h2, p {
+    padding: 20px;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .team {
     display: grid;
     justify-content: space-between;
@@ -186,13 +208,14 @@ footer nav{
     font-family: "Source Code Pro", monospace;
 }
 .team figure{
-    width: 30%;
+    width: 50%;
+    margin-top: 5%;
 }
 .team figure img {
     width: 100%;
 }
 .figures figure figcaption{
-    width: 110%;
+    width: 100%;
 }
 .forms {
     margin-left:0;
