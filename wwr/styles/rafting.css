@@ -234,9 +234,9 @@ fieldset{
     display: flex;
     justify-content: space-between;
 }
-.map{
-    width: 500;
-    height: 350;
+.map iframe{
+    width: 500px;
+    height: 450px;
     border: 0;
 }
 .box_message{
