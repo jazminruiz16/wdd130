@@ -234,6 +234,11 @@ fieldset{
     display: flex;
     justify-content: space-between;
 }
+.map{
+    width: 500;
+    height: 350;
+    border: 0;
+}
 .box_message{
     display: flex;
     flex-direction: column;
