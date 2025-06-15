@@ -322,6 +322,7 @@ input, textarea, button {
     grid-template-rows: 1fr 1fr 1fr ;
     align-items: center;
     text-align: center;
+    
 }
 .grid_index p{
     place-self: center;
@@ -348,7 +349,7 @@ input, textarea, button {
 .trips_main{
     display: grid;
     grid-template-columns: 5% 30% 30% 30% 5%;
-    grid-template-rows: 15% 5% 50% 5% 25%;
+    grid-template-rows: 220px 70px 400px 70px 300px;
 }
 .action_trips{
     top: 2%;
@@ -358,8 +359,9 @@ input, textarea, button {
     grid-column-start:1;
     grid-column-end: 6;
     justify-items: center;/*this only for child, no father*/
-    grid-row-start: 0;
-    grid-row-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-bottom: 10px;
 }
 .action_trips a{
     width: 150px;
@@ -377,40 +379,53 @@ input, textarea, button {
     justify-items: center;
 }
 #subtitle{
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-#subtitle2{
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-.image01{
-    width: 50px;
-    grid-column-start:2;
-    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.image01{
+    width: 300px;
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 }
 .image02{
-    width: 50px;
+    width: 300px;
     grid-column-start:3;
     grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 }
 .image03{
-    width: 50px;
+    width: 300px;
     grid-column-start:4;
     grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
+}
+#subtitle2{
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 .trip1{
     grid-column-start:2;
     grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 50px;
+}
+.trip2{
+    grid-column-start:4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 50px;
 }
